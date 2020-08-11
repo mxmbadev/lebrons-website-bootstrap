@@ -57,10 +57,75 @@ body{
     padding-bottom: 6%;
 }
 
+#lebrons-bg{
+    background-image: url('../img/lebron-suite.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
 
+#more-than-an-athlete{
+    padding: 6% 0;
+}
+
+#more-than-an-athlete h1 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    padding-bottom: 6%;
+}
+
+.responsive-img{
+    width: 100%;
+}
+
+.card{
+    color: #000000;
+    margin-bottom: 50px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.24);
+    transition: all, .3s ease-in-out;
+}
+
+.card h5{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card p{
+    padding: 0 20px 30px 20px;
+}
+
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 22px 43px rgba(0,0,0,.15);
+    transition: all, .3s ease-in-out;
+    color: #000;
+    text-decoration: none;
+}
+
+.quote h1{
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 60px;
+    letter-spacing: 5px;
+}
+
+.quote h1 span{
+    font-size: 20px;
+}
 
 @media screen and (max-width: 1025px){
     #hero h1{
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #hero h1{
+        font-size: 1.5rem;
+        letter-spacing: 20px;
     }
 }
